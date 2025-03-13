@@ -1,25 +1,39 @@
-# Refleksi
+# Refleksi Modul 5
+Nama  : Muhammad Radhiya Arshq
+
+NPM   : 2306275885
+
+Kelas : ADPRO A
+
+---
 
 > 1. What is the difference between the approach of performance testing with JMeter and profiling with IntelliJ Profiler in the context of optimizing application performance?
 
+Perbedaan dapat dilihat dari segi skala/tujuan yang berbeda, JMeter dapat digunakan untuk menguji performa aplikasi secara keseluruhan (dari perspektif user), sedangkan Profiller pada Intellij dapat digunakan mengoptimalkan performa kode secara spesifik.
 
 > 2. How does the profiling process help you in identifying and understanding the weak points in your application?
 
+Profilling membantu saya dalam mengidentifikasi dan mengenal weak points pada aplikasi dengan mengukur pemakaian CPU sehingga dapat mengidentifikasi metode atau fungsi mana yang memakan banyak waktu eksekusi, mengidentifikasi heap memory usage yang terlalu besar atau tidak efisien, dan lainnya.
 
 > 3. Do you think IntelliJ Profiler is effective in assisting you to analyze and identify bottlenecks in your application code?
 
+Iya, karena penggunaannya tidak memerlukan alat eksternal tambahan karena terintegrasi langsung dengan IntelliJ IDEA, lalu saya bisa melihat performa aplikasi langsung saat berjalan melalui visualisasi yang intuitif
 
 > 4. What are the main challenges you face when conducting performance testing and profiling, and how do you overcome these challenges?
 
+Beberapa tantangan yang saya hadapi ketika melakukan performance testing dan profilling adalah mementukan solusi optimisasi untuk method-method yang menggunakan banyak waktu
 
 > 5. What are the main benefits you gain from using IntelliJ Profiler for profiling your application code?
 
+Main Benefit dari menggunakan Intellij Profiler dalam profilling adalah dapat mendeteksi bottleneck dengan cepat, mencegah memory leaks, dapat memperbaiki deadlocks & optimasi thread performance, dan tidak perlu third party akses karena langsung terintegrasi dengan Intellij IDEA
 
 > 6. How do you handle situations where the results from profiling with IntelliJ Profiler are not entirely consistent with findings from performance testing using JMeter?
 
+Untuk saat ini tidak pernah terjadi situasi dimana hasil Intellij dan Jmeter berbeda, namun jika terjadi maka saya akan coba gunakan keduanya bersama-sama untuk mendapatkan gambaran lengkap dan melakukan optimasi dengan efektif.
 
 > 7. What strategies do you implement in optimizing application code after analyzing results from performance testing and profiling? How do you ensure the changes you make do not affect the application's functionality?
 
+Strategi yang saya gunakan adalah memanfaatkan built-in features yang disediakan Java seperti stream, function untuk iterate list, dan lainnya yang bisa lebih baik dibanding penggunaan for loop biasa.
 
 
 ## Hasil JMeter from CMD
